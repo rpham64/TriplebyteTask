@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/transaction_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:text="Dinner at Momo's"
+        />
+
+    <TextView
+        android:id="@+id/transaction_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/transaction_title"
+        tools:text="Restaurants/Dining"
+        />
+
+    <TextView
+        android:id="@+id/transaction_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        tools:text="$15.35"
+        />
+
+</RelativeLayout>
